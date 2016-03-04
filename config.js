@@ -11,7 +11,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://198.211.116.198',
+        url: 'http://joelgt.com',
         mail: {
             transport: 'SMTP',
                 options: {
