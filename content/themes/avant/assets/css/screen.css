@@ -445,6 +445,7 @@ pre {
   color: #ffffff;
   font-weight: 300;
   font-size: 3.75em;
+  text-shadow: rgba(0, 0, 0, 0.62) 0px 0px 10px;
 }
 .cover .description {
   color: #ffffff;
