@@ -1,0 +1,159 @@
+.container-Demos {
+  text-align: center;
+  padding: 2em 0;
+}
+.container-Demos .Demos__title h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.container-Demos .Demos__title p {
+  padding: 15px;
+  font-size: 1.1em;
+}
+.container-Demos .Demos__Cajas h3 {
+  font-size: 2em;
+}
+.container-Demos .Demos__Cajas p {
+  padding: 15px;
+}
+.container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item {
+  display: block;
+  background: #18333d;
+  color: #fff;
+  padding-top: 0.7em;
+  padding-bottom: 1em;
+  margin: 1em 0;
+}
+.container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item h4 {
+  font-size: 1.5em;
+}
+.container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item h4 .Demos_Cajas--item__title {
+  background: transparent;
+  padding: 0.5em 0;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  border: none;
+  text-transform: initial;
+}
+.container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item h4 .Demos_Cajas--item__title:hover {
+  text-decoration: underline;
+}
+.container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item figure img {
+  max-width: 100%;
+}
+.container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item p {
+  padding: 15px;
+  font-size: 1.1em;
+}
+.container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item .Demos_Cajas--item__link {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  background: rgba(0,255,245,0.78);
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  padding: 0.5em;
+  margin: 0.5em 2em;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  border-bottom: 6px solid #1ba29d;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+.container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item .Demos_Cajas--item__link:hover {
+  background: #ffa13e;
+  color: #fff;
+  border-bottom: 6px solid #ab6907;
+}
+.container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item .Demos_Cajas--item__link:active {
+  background: rgba(140,255,250,0.78);
+  color: #fff;
+  border-bottom: 4px solid #1ba29d;
+}
+@media (min-width: 700px) {
+  .container-Demos {
+    text-align: center;
+    padding: 2em 0;
+  }
+  .container-Demos .Demos__title h2 {
+    font-size: 4.5em;
+  }
+  .container-Demos .Demos__title p {
+    padding: 15px;
+    font-size: 1.5em;
+  }
+  .container-Demos .Demos__Cajas {
+    border-top: 3px dashed #000;
+    max-width: 1000px;
+    margin: 1.5em auto;
+    padding: 1em;
+  }
+  .container-Demos .Demos__Cajas h3 {
+    font-size: 3em;
+  }
+  .container-Demos .Demos__Cajas p {
+    padding: 15px;
+    font-size: 1.3em;
+  }
+  .container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item {
+    display: inline-block;
+    width: 400px;
+    padding-top: 0.7em;
+    padding-bottom: 1em;
+    margin: 1.5em;
+  }
+  .container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item h4 {
+    font-size: 1.5em;
+  }
+  .container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item h4 .Demos_Cajas--item__title {
+    background: transparent;
+    padding: 0.5em 0;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    border: none;
+    text-transform: initial;
+  }
+  .container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item h4 .Demos_Cajas--item__title:hover {
+    text-decoration: underline;
+  }
+  .container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item figure img {
+    max-width: 100%;
+  }
+  .container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item p {
+    padding: 15px;
+    font-size: 1.1em;
+  }
+  .container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item .Demos_Cajas--item__link {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background: rgba(0,255,245,0.78);
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    padding: 0.5em;
+    margin: 0.5em 2em;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    border-bottom: 6px solid #1ba29d;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item .Demos_Cajas--item__link:hover {
+    background: #ffa13e;
+    color: #fff;
+    border-bottom: 6px solid #ab6907;
+  }
+  .container-Demos .Demos__Cajas .Demos_Cajas--boxs .Demos_Cajas--item .Demos_Cajas--item__link:active {
+    background: rgba(140,255,250,0.78);
+    color: #fff;
+    border-bottom: 4px solid #1ba29d;
+  }
+}

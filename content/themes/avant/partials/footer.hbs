@@ -1,0 +1,41 @@
+<!-- start footer -->
+<footer class="main-footer">
+	{{> widget-newsletter}}
+	<div class="footer-widget-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					{{> widget-recentpost}}
+				</div>
+				<div class="col-sm-6 col-md-4">
+					{{> widget-tagcloud}}
+					{{> widget-social}}
+					
+				</div>
+				<div class="col-sm-6 col-md-4">
+					{{> widget-text}}
+				</div>
+			</div>
+		</div>
+	</div>
+	{{> copyright}}
+</footer>
+<!-- end footer -->
+<a href="#" id="back-to-top"><i class="material-icons">&#xE5CE;</i></a>
+{{! insert search popup partial}}
+{{> search-popup}}
+{{ghost_foot}}
+<!-- scripts -->
+<script type="text/javascript">
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{asset "js/bootstrap.min.js"}}"></script>
+<script src="{{asset "js/plugins.js"}}"></script>
+<script src="{{asset "js/main.js"}}"></script>

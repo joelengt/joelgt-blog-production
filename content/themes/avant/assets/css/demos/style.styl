@@ -1,0 +1,150 @@
+@import 'nib'
+
+.container-Demos 
+	text-align center
+	padding 2em 0
+	
+	.Demos__title
+		h2
+			font-size 3em
+			text-transform uppercase
+		p
+			padding 15px
+			font-size 1.1em
+			
+	.Demos__Cajas
+		h3
+			font-size 2em
+		p
+			padding 15px
+			
+		.Demos_Cajas--boxs
+			.Demos_Cajas--item
+				display block
+				background #18333D
+				color white
+				padding-top .7em
+				padding-bottom 1em
+				margin 1em 0
+	
+				h4
+					font-size 1.5em
+					
+					.Demos_Cajas--item__title
+						background transparent
+						padding .5em 0
+						text-decoration none
+						color white
+						display block
+						border none
+						text-transform initial
+						
+						&:hover
+							text-decoration underline
+						
+				figure
+					img
+						max-width 100%
+
+				p
+					padding 15px
+					font-size 1.1em
+				.Demos_Cajas--item__link
+					text-decoration none
+					color white
+					display block
+					background rgba(0, 255, 245, 0.78)
+					border-radius 20px
+					padding .5em
+					margin .5em 2em
+					font-size 1.4em
+					text-transform uppercase
+					border-bottom 6px solid #1BA29D
+					transition .2s
+					
+					&:hover
+						background rgb(255, 161, 62)
+						color white
+						border-bottom 6px solid #AB6907
+						
+					&:active
+						background rgba(140, 255, 250, 0.78)
+						color white
+						border-bottom 4px solid #1BA29D
+						
+@media (min-width 700px) 
+	.container-Demos 
+		text-align center
+		padding 2em 0
+		
+		.Demos__title
+			h2
+				font-size 4.5em
+			p
+				padding 15px
+				font-size 1.5em
+				
+		.Demos__Cajas
+			border-top 3px dashed black
+			max-width 1000px
+			margin 1.5em auto
+			padding 1em
+			
+			h3
+				font-size 3em
+			p
+				padding 15px
+				font-size 1.3em 
+				
+			.Demos_Cajas--boxs
+				.Demos_Cajas--item
+					display inline-block
+					width 400px
+					padding-top .7em
+					padding-bottom 1em
+					margin 1.5em
+		
+					h4
+						font-size 1.5em
+						
+						.Demos_Cajas--item__title
+							background transparent
+							padding .5em 0
+							text-decoration none
+							color white
+							display block
+							border none
+							text-transform initial
+							
+							&:hover
+								text-decoration underline
+							
+					figure
+						img
+							max-width 100%
+
+					p
+						padding 15px
+						font-size 1.1em
+					.Demos_Cajas--item__link
+						text-decoration none
+						color white
+						display block
+						background rgba(0, 255, 245, 0.78)
+						border-radius 20px
+						padding .5em
+						margin .5em 2em
+						font-size 1.4em
+						text-transform uppercase
+						border-bottom 6px solid #1BA29D
+						transition .2s
+						
+						&:hover
+							background rgb(255, 161, 62)
+							color white
+							border-bottom 6px solid #AB6907
+							
+						&:active
+							background rgba(140, 255, 250, 0.78)
+							color white
+							border-bottom 4px solid #1BA29D

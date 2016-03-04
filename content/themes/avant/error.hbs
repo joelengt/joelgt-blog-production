@@ -1,0 +1,20 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
+{{> cover-single}}
+<div class="main-content-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-12 col-md-offset-2">
+				<div class="card card-single card-error">
+					<div class="error-block-inner">
+						<h1 class="error-code"><span>{{code}}</span></h1>
+						<h3>{{message}}</h3>
+						<p class="message-manual">Desarfotunadamente, la pagina que buscas no esta disponible o no fue encontrada</p>
+						<a href="{{@blog.url}}" class="btn btn-default ripple home-link">Volver al Blog</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

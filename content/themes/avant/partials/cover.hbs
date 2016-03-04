@@ -1,0 +1,113 @@
+<div class="cover {{#is "home"}}cover-home{{/is}}" {{#if @blog.cover}}style="background-image: url({{@blog.cover}});"{{else}}style="background-image: url({{asset "images/bg-cover.jpg"}});"{{/if}}>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h1 class="welcome-message">{{@blog.title}}</h1>
+				{{#if @blog.description}}
+				{{#is "home"}}
+				<p class="h4 description">{{@blog.description}}</p>
+				{{/is}}
+				{{/if}}
+
+				<div class="widget centrado">
+					<div class="content clearfix">
+							<div class="icon-Networking">
+								<li>
+									<a href="https://www.facebook.com/Ramnk0" class="icon-facebook" target="blank"></a>
+								</li>
+								<li>
+									<a href="https://twitter.com/joelengt" class="icon-twitter" target="blank"></a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/joelengt/" class="icon-instagram" target="blank"></a>
+								</li>
+								<li>
+									<a href="https://github.com/joelengt" class="icon-github" target="blank"></a>
+								</li>
+								<li>
+									<a href="https://pe.linkedin.com/in/joel-gonzales-tipismana-291990bb" class="icon-linkedin" target="blank"></a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/channel/UCJupglzpy8uo01p6H-yvPNQ" class="icon-youtube" target="blank"></a>
+								</li>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<style>
+	
+	@font-face {
+	    font-family: 'icomoon';
+	    src:    url('assets/fonts/icon-networking/icomoon.eot?nnimdb');
+	    src:    url('assets/fonts/icon-networking/icomoon.eot?nnimdb#iefix') format('embedded-opentype'),
+	        url('assets/fonts/icon-networking/icomoon.ttf?nnimdb') format('truetype'),
+	        url('assets/fonts/icon-networking/icomoon.woff?nnimdb') format('woff'),
+	        url('assets/fonts/icon-networking/icomoon.svg?nnimdb#icomoon') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	[class^="icon-"], [class*=" icon-"] {
+	    /* use !important to prevent issues with browser extensions that change fonts */
+	    font-family: 'icomoon' !important;
+	    speak: none;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-variant: normal;
+	    /*// text-transform: none;*/
+	    line-height: 1;
+	    
+	    /* Better Font Rendering =========== */
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	    
+	    /*Style Custom*/
+	    color: white;
+	    text-decoration: none;
+	    font-size: 4.3rem;
+	    letter-spacing: .1em;
+	    transition: .3s;
+	}
+
+	.icon-google-plus:before {
+	    content: "\e900";
+	}
+	.icon-facebook:before {
+	    content: "\e901";
+	}
+	.icon-instagram:before {
+	    content: "\e902";
+	}
+	.icon-twitter:before {
+	    content: "\e903";
+	}
+	.icon-youtube:before {
+	    content: "\e904";
+	}
+	.icon-github:before {
+	    content: "\e905";
+	}
+	.icon-skype:before {
+	    content: "\e906";
+	}
+	.icon-linkedin:before {
+	    content: "\e907";
+	}
+
+	.icon-Networking {
+	  position: relative;
+	  padding-top: .6em;
+	}
+
+	.icon-Networking li{
+	  list-style: none;
+	  display: inline-block;
+	}
+
+	.icon-Networking li a:hover {
+	  color: #FFB64A;
+	}
+</style>
