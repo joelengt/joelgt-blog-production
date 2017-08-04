@@ -44,7 +44,7 @@
     "fs-extra": "0.26.5",
     "ghost-gql": "0.0.4",
     "glob": "5.0.15",
-    "handlebars": "^4.0.5",
+    "handlebars": "^4.0.10",
     "html-to-text": "1.6.0",
     "intl": "1.0.1",
     "intl-messageformat": "1.2.0",
