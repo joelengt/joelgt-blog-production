@@ -6,6 +6,6 @@ services:
       context: ../..
       dockerfile: .docker/dev/Dockerfile
     ports:
-      - 5001:2368
+      - 2368:2368
     hostname: gateway
     restart: always
