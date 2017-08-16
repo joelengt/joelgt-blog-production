@@ -11,7 +11,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://joelgt.com',
+        url: 'https://joelgt.com',
         mail: {
             transport: 'SMTP',
                 options: {
@@ -50,8 +50,8 @@ config = {
              options: {
                  service: 'Gmail',
                  auth: {
-                     user: 'joelengt@gmail.com', 
-                     pass: 'kuroyukihime2110' 
+                     user: 'joelengt@gmail.com',
+                     pass: 'kuroyukihime2110'
                  }
              }
          },
