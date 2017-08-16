@@ -1,1 +1,1 @@
-sudo npm start --production
+npm start --production
